@@ -1,0 +1,14 @@
+{
+  "challenges": [
+    "bt-insert",
+    "bt-search",
+    "bt-get-height",
+    "bt-get-balance-factor",
+    "bt-rotate-right",
+    "bt-rotate-left",
+    "bt-rotate-right-left",
+    "bt-rotate-left-right",
+    "bt-insert-balanced",
+    "bt-print-tree"
+  ]
+}
