@@ -1,0 +1,11 @@
+{
+  "challenges": [
+    "insertion-sort",
+    "bubble-sort",
+    "merge-sort",
+    "quick-sort",
+    "linear-search",
+    "jump-search",
+    "binary-search"
+  ]
+}
