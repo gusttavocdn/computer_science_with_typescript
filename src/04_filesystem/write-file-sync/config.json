@@ -1,0 +1,7 @@
+{
+  "slug": "write-file-sync",
+  "name": "writeFileSync",
+  "turnedInFile": "index.ts",
+  "allowedMaterials": ["fs.openSync", "fs.writeSync", "fs.closeSync"],
+  "hintEn": "💡Pay special attention to the \"file system flags\" of fs.openSync."
+}
