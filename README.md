@@ -23,7 +23,7 @@ what you are supposed to do. Follow the instructions rigorously.
 As a general rule, you should adopt that it is **EXPRESSLY PROHIBITED** to use functions that are not listed as allowed
 directly in the instructions for each challenge.
 
-We can't test if your code are or not using only the allowed functions but have in mind that if you do not follow this
+We can't test if your code are or not using only the allowed functions but have in mind that if you do not follow these
 instructions you will be only cheating yourself and delaying your learning process.
 
 ## :rocket: How to test your code
