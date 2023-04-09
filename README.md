@@ -4,7 +4,7 @@
 
 This project is basically a fork
 of [The Arena Project Repository](https://github.com/the-arena-project/typescript-arenas) The goal
-here was provide all the challenges in the original repository simplified for students who do not can pay for **The
+here were provide all the challenges in the original repository simplified for students who can't pay for **The
 Arena Course** now.
 
 If you want to have the full experience you can access the site of the
