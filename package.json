@@ -1,7 +1,7 @@
 {
-  "name": "the_arena_project",
+  "name": "typescript_ci_challenges",
   "version": "1.0.0",
-  "description": "The arena projects challenges organized",
+  "description": "This project is just a fork of The Arena Project repo, organized to be better for self-taught students",
   "main": "index.js",
   "scripts": {
     "test": "ts-node --project ./script.tsconfig.json ./scripts/test-jest-challenge.ts",
