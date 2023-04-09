@@ -1,5 +1,6 @@
 import { spawn } from 'child_process';
 import { join } from 'path';
+import { printString } from '../index';
 
 const spawnTestingProcess = async (s: string) =>
   new Promise((resolve, reject) => {
@@ -44,5 +45,11 @@ describe('printString', () => {
         expect(stdout).toEqual(`${testValue}\n`);
       }),
     );
+  });
+
+  it('should not use console.log', () => {
+    const consoleSpy = jest.spyOn(console, 'log');
+    printString('Hello, world!');
+    expect(consoleSpy).not.toHaveBeenCalled();
   });
 });
