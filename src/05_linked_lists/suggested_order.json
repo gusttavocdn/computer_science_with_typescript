@@ -1,0 +1,21 @@
+{
+  "challenges": [
+    "ll-create-link",
+    "ll-unshift",
+    "ll-add-after",
+    "ll-count",
+    "ll-get-last",
+    "ll-push",
+    "ll-get-at",
+    "ll-delete-at",
+    "ll-shift",
+    "ll-insert-at",
+    "ll-pop",
+    "ll-for-each",
+    "ll-map",
+    "ll-find",
+    "ll-merge",
+    "ll-reverse",
+    "ll-ultimerge"
+  ]
+}

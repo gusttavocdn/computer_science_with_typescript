@@ -1,0 +1,13 @@
+{
+  "challenges": [
+    "iterative-factorial",
+    "recursive-factorial",
+    "iterative-power",
+    "recursive-power",
+    "fibonacci",
+    "the-corridor",
+    "avoid-the-warriors",
+    "find-path",
+    "shortest-path"
+  ]
+}

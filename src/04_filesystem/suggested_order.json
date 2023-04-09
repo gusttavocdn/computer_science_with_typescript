@@ -1,0 +1,3 @@
+{
+  "challenges": ["ls", "lsdeep", "read-file-sync", "write-file-sync", "cp"]
+}
