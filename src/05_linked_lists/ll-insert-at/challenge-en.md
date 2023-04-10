@@ -1,4 +1,7 @@
-Write a function called insertAt that adds a link to a linked list at the specified index argument and returns the created link.
+# Instructions
+
+Write a function called insertAt that adds a link to a linked list at the specified index argument and returns the
+created link.
 
 For example, if you insert a node D at index 1 in a list A -> B -> C, you will get A -> D -> B -> C.
 
@@ -11,3 +14,7 @@ Your function should conform to the following prototype:
 ```typescript
 type InsertAtFn = <T> (list: Link<T> | null, index: number, data: T) => Link<T> | undefined
 ```
+
+### Allowed Functions / Properties
+
+- N/A

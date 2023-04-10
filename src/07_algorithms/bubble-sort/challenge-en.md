@@ -1,3 +1,5 @@
+# Instructions
+
 Write a function called bubbleSort that takes an array as an argument and returns a copy of the array sorted.
 
 The order is defined by the comparison function passed as a second argument.
@@ -10,3 +12,7 @@ Your function should conform to the following prototype:
 type CompareFn<T> = (a: T, b: T) => number
 type SortFn = <T>(arr: T[], cmp: CompareFn<T>) => T[]
 ```
+
+### Allowed Functions / Properties
+
+- N/A

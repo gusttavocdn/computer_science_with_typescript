@@ -1,10 +1,13 @@
+# Instructions
+
 Write a function called printTree that displays all the nodes of a tree on the standard output.
 
 Each link between nodes will contain a vertically aligned pipe `|` followed by three underscores `___`.
 
 No space is required between a node's value and its link.
 
-The function should always display the right node first, then all the children of the right node, and then move on to the left nodes.
+The function should always display the right node first, then all the children of the right node, and then move on to
+the left nodes.
 
 Your function should conform to the following prototype:
 
@@ -25,3 +28,11 @@ Here is an example of output for a balanced tree with a root value of 4.
 |   |___3
 |   |___1
 ```
+
+### Allowed Functions / Properties
+
+- N/A
+
+### Hint
+
+- 💡 You were told that recursion was useful after all...

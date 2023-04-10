@@ -1,4 +1,7 @@
-Write a function called addAfter that takes as its first argument a node of a linked list and creates and adds a new node after it.
+# Instructions
+
+Write a function called addAfter that takes as its first argument a node of a linked list and creates and adds a new
+node after it.
 
 The new node must contain the value of data.
 
@@ -9,5 +12,9 @@ The added node must be returned.
 Your function must conform to the following prototype:
 
 ```typescript
-type AddAfterFn = <T> (link: Link<T>|null, data: T) => Link<T>
+type AddAfterFn = <T> (link: Link<T> | null, data: T) => Link<T>
 ```
+
+### Allowed Functions / Properties
+
+- N/A

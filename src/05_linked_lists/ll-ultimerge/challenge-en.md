@@ -1,10 +1,12 @@
+# Instructions
+
 Write a function called ultimerge that merges two lists by combining elements one by one.
 This function should return the first node of list A or the first node of list B in the case where A === null
 
 Your function must conform to the following prototype:
 
 ```typescript
-type UltimergeFn = <T> (listA: Link<T> | null, listB: Link<T> | null) => Link<T>|null
+type UltimergeFn = <T> (listA: Link<T> | null, listB: Link<T> | null) => Link<T> | null
 ```
 
 Here are some examples (in the form of diagrams):
@@ -30,3 +32,7 @@ ListA : 1 -> 2 -> 3
 ListB : null
 Résultat : 1 -> 2 -> 3
 ```
+
+### Allowed Functions / Properties
+
+- N/A
