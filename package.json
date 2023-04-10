@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "prepare": "husky install",
+    "dev": "ts-node",
     "test": "ts-node --project ./script.tsconfig.json ./scripts/test-jest-challenge.ts",
     "lint": "eslint . --ext .ts --fix"
   },
