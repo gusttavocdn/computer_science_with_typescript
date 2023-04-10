@@ -1,4 +1,7 @@
-Write a function called isAlpha that returns true if a string is composed only of letters from the alphabet (lowercase or uppercase, excluding accents).
+# Instructions
+
+Write a function called isAlpha that returns true if a string is composed only of letters from the alphabet (lowercase
+or uppercase, excluding accents).
 
 The function should be prototyped as follows:
 
@@ -16,3 +19,8 @@ isAlpha("Bonjour 123");
 isAlpha("Bonjour ");
 // false
 ```
+
+### Allowed Functions / Properties
+
+- N/A
+

@@ -10,3 +10,7 @@ Your function should conform to the following prototype:
 ```typescript
 type ArrLengthFn = (arr: number[]) => number
 ```
+
+### Hint
+
+- **Array.length** being a property, it is indeed forbidden, we won't repeat it again.

@@ -1,6 +1,11 @@
-Write a function called reverseString that takes a string and returns a reversed string without modifying the original string.
+# Instructions
 
-For this exercise, the [spread operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax) is not allowed.
+Write a function called reverseString that takes a string and returns a reversed string without modifying the original
+string.
+
+For this exercise,
+the [spread operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax) is not
+allowed.
 
 The function will be prototyped in the following way:
 
@@ -18,3 +23,7 @@ reverseString(str)
 print(str)
 // "123"
 ```
+
+### Allowed Functions / Properties
+
+- N/A

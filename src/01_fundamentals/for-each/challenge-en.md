@@ -1,3 +1,5 @@
+# Instructions
+
 Write a function called forEach that allows executing a callback function on each element of an array.
 
 The function will be prototyped as follows:
@@ -14,3 +16,7 @@ forEach(["hello", "world"], printString)
 // hello
 // world
 ```
+
+### Allowed Functions / Properties
+
+- N/A

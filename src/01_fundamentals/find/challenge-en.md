@@ -1,3 +1,5 @@
+# Instructions
+
 Write a function called find that returns the first element that matches the predicate of the callback function.
 If the callback function returns true, the element is returned.
 If no element matches, the function returns undefined.
@@ -17,3 +19,7 @@ Usage examples:
 find([1,2,3], (elem) => (elem === 2));
 // 2
 ```
+
+### Allowed Functions / Properties
+
+- N/A

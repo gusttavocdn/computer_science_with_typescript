@@ -17,7 +17,9 @@ Na pasta de cada tema, você encontrará um arquivo suggested_order.json. Este a
 e você pode seguir esta ordem. Todos os desafios possuem seu próprio arquivo challenge-en.md para descrever o que você
 deve fazer. Siga as instruções rigorosamente.
 
-Como regra geral, você deve adotar que é EXPLICITAMENTE PROIBIDO utilizar funções que não estejam listadas como
+Isso inclui qualquer método presente em built-in objetos como: Array.filter, Array.map, String.toLowerCase, etc.
+
+Como regra geral, você deve adotar que é **EXPLICITAMENTE PROIBIDO** utilizar funções que não estejam listadas como
 permitidas diretamente nas instruções de cada desafio.
 
 Não podemos testar se o seu código está ou não utilizando apenas as funções permitidas, mas tenha em mente que se você
