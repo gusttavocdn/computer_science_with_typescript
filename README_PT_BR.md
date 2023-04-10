@@ -22,7 +22,33 @@ Isso inclui qualquer método presente em built-in objetos como: Array.filter, Ar
 Como regra geral, você deve adotar que é **EXPLICITAMENTE PROIBIDO** utilizar funções que não estejam listadas como
 permitidas diretamente nas instruções de cada desafio.
 
-As regras do ESLINT garantirão que métodos não permitidos não sejam usados. Tenha em mente que, se você tentar ignorar o eslint, os testes locais para seus desafios podem passar, mas você não poderá fazer o commit do seu trabalho até que todas as regras sejam corrigidas.
+As regras do ESLINT garantirão que métodos não permitidos não sejam usados. Tenha em mente que, se você tentar ignorar o
+eslint, os testes locais para seus desafios podem passar, mas você não poderá fazer o commit do seu trabalho até que
+todas as regras sejam corrigidas.
+
+Minha abordagem sugerida para organizar seu trabalho e também fornecer maneiras de compará-lo com o trabalho de outras
+pessoas que possam estar realizando esses desafios é a seguinte:
+
+1. ###### **_Clone this repository_**
+   ```bash
+      git clone git@github.com:gusttavocdn/computer_science_with_typescript.git
+      cd computer_science_with_typescript
+      npm install
+   ```
+
+2. ###### **_Make a branch for your work_**
+
+   ```bash
+      git checkout -b "your-branch-name"
+   ```
+
+3. ###### **_Commit your work as a pull request_**
+   ```bash
+      git add .
+      git commit -m "your-commit-message"
+      # This syntax is only necessary on the first push. After that you can use "git push"
+      git push -u origin "your-branch-name" 
+   ```
 
 ## :rocket: Como testar seu código
 

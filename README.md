@@ -25,7 +25,33 @@ directly in the instructions for each challenge.
 
 This includes any methods of built-in objects like: Array.filter, Array.map, String.toLowerCase, etc.
 
-The ESLINT rules will ensure that method not alloweds are not used. Have in mind that if you try to ignore the eslint the local tests for your challenges can pass, but you will not be able to commit your work until all the rules are fixed.
+The ESLINT rules will ensure that methods not allowed are used. Have in mind that if you try to ignore the eslint the
+local tests for your challenges can pass, but you will not be able to commit your work until all the rules are fixed.
+
+My suggested approach in order to organize your work and also provide ways to compare agains other people work that
+might be doing this challenges is the following:
+
+1. ###### **_Clone this repository_**
+   ```bash
+      git clone git@github.com:gusttavocdn/computer_science_with_typescript.git
+      cd computer_science_with_typescript
+      npm install
+   ```
+
+2. ###### **_Make a branch for your work_**
+
+   ```bash
+      git checkout -b "your-branch-name"
+   ```
+
+3. ###### **_Commit your work as a pull request_**
+
+   ```bash
+      git add .
+      git commit -m "your-commit-message"
+      # This syntax is only necessary on the first push. After that you can use "git push"
+      git push -u origin "your-branch-name" 
+   ```
 
 ## :rocket: How to test your code
 
