@@ -165,7 +165,6 @@ module.exports = {
     '@thearenaproject/no-methods-or-properties': [
       'error',
       {
-        // allowed methods
         allowed: [],
       },
     ],
