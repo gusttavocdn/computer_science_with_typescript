@@ -1,5 +1,7 @@
 # Ciências da Computação com Typescript
 
+- [Documentação em inglês](https://github.com/gusttavocdn/computer_science_with_typescript/blob/main/README.md)
+
 ## :page_with_curl: Resumo
 
 Este projeto é basicamente um fork do curso [The Arena Project](https://www.thearenaproject.co/).

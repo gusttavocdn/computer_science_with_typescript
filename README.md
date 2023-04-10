@@ -1,5 +1,7 @@
 # Computer Science with TS
 
+- [Portuguese Docs](https://github.com/gusttavocdn/computer_science_with_typescript/blob/main/README_PT_BR.md)
+
 ## :page_with_curl: Summary
 
 This project is basically a fork of [The Arena Project](https://www.thearenaproject.co/) course.The goal
