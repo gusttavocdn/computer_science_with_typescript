@@ -26,23 +26,25 @@ type Runway = [number, number][];
 
 ```typescript
 const runway = [
-    [0, 0],
-    [0, 1],
-    [0, 0],
-    [1, 0],
-    [1, 0],
-    [0, 0],
+  [0, 0],
+  [0, 1],
+  [0, 0],
+  [1, 0],
+  [1, 0],
+  [0, 0],
 ]
 ```
 
 In this scenario, warriors are represented by 1s.
 Safe spaces are represented by 0s.
 
-Write a function called avoidTheWarriors that takes a runway as an argument and returns the number of steps sideways you had to take to avoid the warriors.
+Write a function called avoidTheWarriors that takes a runway as an argument and returns the number of steps sideways you
+had to take to avoid the warriors.
 
 If you are never forced to take a step sideways, return 0.
 
-Write a function called `avoidTheWarriors` that takes a runway as an argument and returns the number of steps sideways you had to take to avoid the warriors.
+Write a function called `avoidTheWarriors` that takes a runway as an argument and returns the number of steps sideways
+you had to take to avoid the warriors.
 
 If you are never forced to take a step sideways, return 0.
 
@@ -62,25 +64,29 @@ Here are some examples of runways as well as the expected outputs of your functi
 
 ```typescript
 [
-    [0, 0],
-    [0, 0],
-    [0, 0],
+  [0, 0],
+  [0, 0],
+  [0, 0],
 ] // 0
 
-[
-    [0, 0],
+  [
+  [0, 0],
     [0, 1],
     [0, 0],
-] // 0
+  ] // 0
 
-[
-    [0, 0],
+  [
+  [0, 0],
     [0, 1],
     [0, 0],
     [1, 0],
     [1, 0],
     [0, 0],
-] // 2
+  ] // 2
 ```
 
 Good luck warrior!
+
+### Allowed Functions / Properties
+
+- Array.length

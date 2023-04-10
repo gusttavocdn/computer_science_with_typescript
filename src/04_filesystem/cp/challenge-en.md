@@ -1,3 +1,5 @@
+# Instructions
+
 Write a `cp` program that copies a source file to a destination on the file system.
 
 Your program will be invoked as follows:
@@ -13,7 +15,8 @@ If the path to the source or destination is invalid, your program must exit and 
 
 If the destination is a folder, the source file should be copied to a file with the same name in the destination folder.
 
-Your program must be able to copy files of several tens of gigabytes if necessary. It's up to you to determine what this implies...
+Your program must be able to copy files of several tens of gigabytes if necessary. It's up to you to determine what this
+implies...
 
 You can display whatever you want on the standard output or error.
 
@@ -36,3 +39,18 @@ $> node cp.js src2.txt folder
 $> cmp src2.txt folder/src2.txt && echo 'copy was successful'
 copy was successful
 ```
+
+### Allowed Functions / Properties
+
+- "path.basename",
+- "path.join",
+- "fs.openSync",
+- "fs.writeSync",
+- "fs.readSync",
+- "fs.closeSync",
+- "Buffer.alloc",
+- "Buffer.copy",
+- "fs.statSync",
+- "Stats.isFile",
+- "Stats.isDirectory",
+- "process.exit"

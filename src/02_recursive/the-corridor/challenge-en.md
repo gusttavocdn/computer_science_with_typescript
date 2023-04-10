@@ -1,3 +1,5 @@
+# Instructions
+
 Warrior, to prepare for battle, you must join the Arena's Dojo.
 
 It is located at the end of one of the most dreaded corridors in the Arena.
@@ -24,7 +26,8 @@ But be careful, you cannot leave the corridor without giving the password to the
 
 The password is the number of boxes you have traversed.
 
-Write a function called exitTheCorridor that takes a corridor as an argument and returns the number of boxes traversed before exiting.
+Write a function called exitTheCorridor that takes a corridor as an argument and returns the number of boxes traversed
+before exiting.
 
 A door is not counted as a box traversed.
 
@@ -42,8 +45,12 @@ Here is the function prototype you should use:
 
 ```typescript
 [0, 0, 0, 0] // 4
-[0] // 1
-[] // 0
-[0, 0, 4, 0, 0]; // 3
+  [0] // 1
+  [] // 0
+  [0, 0, 4, 0, 0]; // 3
 [0, 0, 10, 0, 0, 0, 8, 0, 0, 12, 0, 5, 0] // 6
 ```
+
+### Allowed Functions / Properties
+
+- Array.length

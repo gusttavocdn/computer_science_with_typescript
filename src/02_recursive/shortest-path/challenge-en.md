@@ -1,4 +1,7 @@
-Write a function called shortestPath that returns the length of the shortest path to exit a given maze in the form of a binary matrix.
+# Instructions
+
+Write a function called shortestPath that returns the length of the shortest path to exit a given maze in the form of a
+binary matrix.
 
 The coordinates of the entry (begin) and exit (end) as well as the maze (matrix) will be given as arguments.
 
@@ -18,11 +21,11 @@ Here's an example of a maze where the entry is [1, 0] and the exit is [3, 4].
 
 ```typescript
 [
-	[0,1,1,0,1],
-	[0,0,1,0,1],
-	[0,0,1,1,1],
-	[0,0,1,0,1],
-	[0,0,1,1,1],
+  [0, 1, 1, 0, 1],
+  [0, 0, 1, 0, 1],
+  [0, 0, 1, 1, 1],
+  [0, 0, 1, 0, 1],
+  [0, 0, 1, 1, 1],
 ]
 ```
 
@@ -35,3 +38,8 @@ type Coordinate = [number, number]
 type Matrix = number[][]
 type FindPathFn = (begin: Coordinate, end: Coordinate, matrix: Matrix) => number
 ```
+
+### Allowed Functions / Properties
+
+- Array.length
+- Array.push

@@ -1,4 +1,7 @@
-Write a program lsdeep that works like your previous ls program but in a recursive manner. You can compare this behavior to that of the real ls -R program, all proportions kept.
+# Instructions
+
+Write a program lsdeep that works like your previous ls program but in a recursive manner. You can compare this behavior
+to that of the real ls -R program, all proportions kept.
 
 For the following directory structure:
 
@@ -39,6 +42,21 @@ $>
 
 Please note that the XX fields will indeed be replaced by a number.
 
-Aside from the fact that your lsdeep also lists subdirectories, its operation remains strictly the same as that of your previous ls.
+Aside from the fact that your lsdeep also lists subdirectories, its operation remains strictly the same as that of your
+previous ls.
 
 You must therefore pay attention to the same details.
+
+### Allowed Functions / Properties
+
+- "fs.readdirSync",
+- "fs.statSync",
+- "process.exit",
+- "fs.writeSync",
+- "Stats.isFile",
+- "Stats.isDirectory",
+- "Array.sort",
+- "Array.length",
+- "String.padEnd",
+- "String.localeCompare",
+- "path.join"

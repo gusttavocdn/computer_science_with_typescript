@@ -1,3 +1,5 @@
+# Instructions
+
 Write a function itobin that converts a number into its binary representation as a string.
 
 This is what you just did, but with a representation in a different base.
@@ -18,3 +20,9 @@ itobin(0)   // '0'
 itobin(-0)  // '-0'
 itobin(-10) // '-1010'
 ```
+
+### Allowed Functions / Properties
+
+- Array.length
+- String.length
+- Math.floor

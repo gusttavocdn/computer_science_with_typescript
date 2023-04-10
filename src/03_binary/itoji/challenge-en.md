@@ -1,3 +1,5 @@
+# Instructions
+
 Write a function itoji that converts a number into its representation in the following octal base: `👍🐕🥹💕🎁😊🏡✨`.
 
 Yes, this is a base like any other.
@@ -18,3 +20,9 @@ itoji(-0)   // '-👍'
 itoji(111)  // '🐕😊✨'
 itoji(-10)  // '-🐕🥹'
 ```
+
+### Allowed Functions / Properties
+
+- Array.length
+- String.length
+- Math.floor

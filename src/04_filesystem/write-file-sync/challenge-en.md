@@ -1,3 +1,5 @@
+# Instructions
+
 Write a function called writeFileSync that writes the content of a Buffer to a file on the disk.
 
 The function will take as parameters a path to the destination file and the content to write, stored in a Buffer.
@@ -13,3 +15,9 @@ Your function must conform to the following prototype:
 ```typescript
 type WriteFileSyncFn = (path: string, buffer: Buffer) => number
 ```
+
+### Allowed Functions / Properties
+
+* "fs.openSync"
+* "fs.writeSync"
+* "fs.closeSync"

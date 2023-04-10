@@ -1,3 +1,5 @@
+# Instructions
+
 Write a function itohex that converts a number into its hexadecimal representation as a string.
 
 The concept is exactly the same as the previous two exercises.
@@ -22,3 +24,9 @@ itohex(255)    // 'FF'
 itohex(0)      // '0'
 itohex(-0)     // '-0'
 ```
+
+### Allowed Functions / Properties
+
+- Array.length
+- String.length
+- Math.floor

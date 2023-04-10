@@ -1,3 +1,5 @@
+# Instructions
+
 Write a function fibonacci that returns the value of the nth term of the Fibonacci sequence, where n >= 1.
 
 It might be helpful to look at the definition of this sequence to complete this exercise :')
@@ -18,3 +20,7 @@ Your function must be recursive. This is mandatory. No bargaining. It should con
 ```
 type FibonacciFn = (n: number) => number
 ```
+
+### Allowed Functions / Properties
+
+- N/A
