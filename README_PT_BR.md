@@ -2,12 +2,33 @@
 
 ## :page_with_curl: Resumo
 
-Este projeto é basicamente um fork do The Arena Project Repository. O objetivo aqui é fornecer todos os desafios do
-repositório original de forma simplificada para estudantes que não podem pagar pelo Curso Arena agora.
+Este projeto é basicamente um fork do curso [The Arena Project](https://www.thearenaproject.co/).
+O objetivo aqui é
+fornecer todos os desafios do
+repositorio original do curso, já que é aberto a todos, de forma simplificada para estudantes que não podem pagar pelo
+curso agora.
 
-Se você deseja ter a experiência completa, pode acessar o site do projeto The Arena Project e se inscrever no curso.
+Todos os desafios deste repositório têm o objetivo de fazer você mergulhar profundamente em vários temas de ciência da
+computação que são comuns a qualquer linguagem.
+Se você ficar preso em algum desafio, lembre-se de que o Google é seu
+melhor amigo.
+Você também pode pedir ajuda a amigos e entrar em contato comigo no [LinkedIn](https://www.linkedin.com/in/gustavocdn/)
+ou no Discord com a tag
+`GusttavoCDN#3784`.
 
-Eu pretendo atualizar este repositório constantemente conforme o repositório original também for atualizado.
+Tente não procurar pelas repostas completas para os desafios, mas sim entender os conceitos em cada um.
+
+Como o criador original, [Kevin Piacentini](https://github.com/kevinpiac), é um ex-aluno da **42**, este projeto tem uma
+grande semelhança com o método de
+ensino da **42**.
+
+Como estudante da **42**, também é meu dever convidá-lo a conhecer essa escola maravilhosa.
+Provavelmente é o melhor programa de Engenharia
+de Software que já vi em toda minha vida.
+
+- [**42**SP](https://www.**42**sp.org.br/)
+- [**42** Youtube Channel](https://www.youtube.com/c/ForadaNormaPodcast)
+- [Ecole **42**](https://**42**.fr/en/homepage/)
 
 ## :rocket: Como realizar os desafios
 
