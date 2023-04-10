@@ -1,7 +1,6 @@
 {
   "challenges": [
     "reverse-number",
-    "index-of",
     "for-each",
     "map",
     "filter",
