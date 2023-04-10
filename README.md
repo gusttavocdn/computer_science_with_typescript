@@ -1,51 +1,56 @@
-# Computer Science with TS
+# Ciências da Computação com Typescript
 
-- [Portuguese Docs](https://github.com/gusttavocdn/computer_science_with_typescript/blob/main/README_PT_BR.md)
+- [Documentação em inglês](https://github.com/gusttavocdn/computer_science_with_typescript/blob/main/README.md)
 
-## :page_with_curl: Summary
+## :page_with_curl: Resumo
 
-This project is basically a fork of [The Arena Project](https://www.thearenaproject.co/) course.The goal
-here was providing all the challenges in the original repository, since it is open, simplified for students who can't
-pay for **The Arena Course** now.
+Este projeto é basicamente um fork do curso [The Arena Project](https://www.thearenaproject.co/).
+O objetivo aqui é
+fornecer todos os desafios do
+repositorio original do curso, já que é aberto a todos, de forma simplificada para estudantes que não podem pagar pelo
+curso agora.
 
-All the challenges in this repository have the goal of making you delve deep into several computer science themes that
-are common to any programming language.If you get stuck in any challenge, remember that Google is your best friend. You
-can also
-ask for help from friends and contact me on [LinkedIn](https://www.linkedin.com/in/gustavocdn/) or discord with
-the `GusttavoCDN#3784` tag.
+Todos os desafios deste repositório têm o objetivo de fazer você mergulhar profundamente em vários temas de ciência da
+computação que são comuns a qualquer linguagem.
+Se você ficar preso em algum desafio, lembre-se de que o Google é seu
+melhor amigo.
+Você também pode pedir ajuda a amigos e entrar em contato comigo no [LinkedIn](https://www.linkedin.com/in/gustavocdn/)
+ou no Discord com a tag
+`GusttavoCDN#3784`.
 
-Try not to get full answers to the challenges but to understand the concepts in each one.
+Tente não procurar pelas repostas completas para os desafios, mas sim entender os conceitos em cada um.
 
-Since the original creator, [Kevin Piacentini](https://github.com/kevinpiac) is a former student of **42**, this
-project has a high similarity to the teaching method of **42**.
+Como o criador original, [Kevin Piacentini](https://github.com/kevinpiac), é um ex-aluno da **42**, este projeto tem uma
+grande semelhança com o método de
+ensino da **42**.
 
-As a student of **42** too,
-it is also my duty to invite you to know the school.It is probably the best **Software Engineer**
-program that I've ever seen.
+Como estudante da **42**, também é meu dever convidá-lo a conhecer essa escola maravilhosa.
+Provavelmente é o melhor programa de Engenharia
+de Software que já vi em toda minha vida.
 
 - [**42**SP](https://www.**42**sp.org.br/)
 - [**42** Youtube Channel](https://www.youtube.com/c/ForadaNormaPodcast)
 - [Ecole **42**](https://**42**.fr/en/homepage/)
 
-## :rocket: How to make the Challenges
+## :rocket: Como realizar os desafios
 
-All the challenges are placed in the **src** folder listed by themes numerically in the recommended order.
+Todos os desafios estão localizados na pasta src listados por temas numerados na ordem recomendada.
 
-In the folder of each theme, you will find a **suggested_order.json** file. This file contains the order of the
-challenges in the theme, you can follow this order. All the challenges have his own **challenge-en.md** to describe
-what you are supposed to do. Follow the instructions rigorously.
+Na pasta de cada tema, você encontrará um arquivo suggested_order.json. Este arquivo contém a ordem dos desafios no tema
+e você pode seguir esta ordem. Todos os desafios possuem seu próprio arquivo challenge-en.md para descrever o que você
+deve fazer. Siga as instruções rigorosamente.
 
-As a general rule, you should adopt that it is **EXPRESSLY PROHIBITED** to use functions that are not listed as allowed
-directly in the instructions for each challenge.
+Isso inclui qualquer método presente em built-in objetos como: Array.filter, Array.map, String.toLowerCase, etc.
 
-This includes any methods of built-in objects like: Array.filter, Array.map, String.toLowerCase, etc.
+Como regra geral, você deve adotar que é **EXPLICITAMENTE PROIBIDO** utilizar funções que não estejam listadas como
+permitidas diretamente nas instruções de cada desafio.
 
-The ESLINT rules will ensure that not allowed methods aren't being used.Have in mind that if you try to ignore the
-eslint, the
-local tests for your challenges can pass, but you will not be able to commit your work until all the rules are fixed.
+As regras do ESLINT garantirão que métodos não permitidos não sejam usados. Tenha em mente que, se você tentar ignorar o
+eslint, os testes locais para seus desafios podem passar, mas você não poderá fazer o commit do seu trabalho até que
+todas as regras sejam corrigidas.
 
-My suggested approach in order to organize your work and also provide ways to compare against other people's work that
-might be doing these challenges is the following:
+Minha abordagem sugerida para organizar seu trabalho e também fornecer maneiras de compará-lo com o trabalho de outras
+pessoas que possam estar realizando esses desafios é a seguinte:
 
 1. ###### **_Clone this repository_**
    ```bash
@@ -61,7 +66,6 @@ might be doing these challenges is the following:
    ```
 
 3. ###### **_Commit your work as a pull request_**
-
    ```bash
       git add .
       git commit -m "your-commit-message"
@@ -69,9 +73,9 @@ might be doing these challenges is the following:
       git push -u origin "your-branch-name" 
    ```
 
-## :rocket: How to test your code
+## :rocket: Como testar seu código
 
-You can test your code by running the following command:
+Você pode testar seu código executando o seguinte comando:
 
 ```bash
 #npm test "themeFolder" "challenge"
@@ -81,7 +85,7 @@ You can test your code by running the following command:
 npm test 01_fundamentals print-string #test the challenge print string on fundamentals
 ```
 
-if you want to test all the challenges in a theme folder, just run
+Se você quiser testar todos os desafios em uma pasta, basta seguir o seguinte comando:
 
 ```bash
 #npm test "themeFolder"
