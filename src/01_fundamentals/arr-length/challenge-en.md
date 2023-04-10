@@ -8,8 +8,12 @@ n >= 0.
 Your function should conform to the following prototype:
 
 ```typescript
-type ArrLengthFn = (arr: number[]) => number
+type ArrLengthFn = (arr: number[]) => number;
 ```
+
+### Allowed Functions / Properties
+
+- N/A
 
 ### Hint
 

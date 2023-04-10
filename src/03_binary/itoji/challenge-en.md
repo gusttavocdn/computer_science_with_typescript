@@ -9,16 +9,16 @@ Same constraints as the previous exercises, only the base changes.
 Your function must conform to the following prototype:
 
 ```typescript
-type ItojiFn = (nb: number) => string
+type ItojiFn = (nb: number) => string;
 ```
 
 Usage examples:
 
 ```typescript
-itoji(0)    // '👍'
-itoji(-0)   // '-👍'
-itoji(111)  // '🐕😊✨'
-itoji(-10)  // '-🐕🥹'
+itoji(0); // '👍'
+itoji(-0); // '-👍'
+itoji(111); // '🐕😊✨'
+itoji(-10); // '-🐕🥹'
 ```
 
 ### Allowed Functions / Properties
