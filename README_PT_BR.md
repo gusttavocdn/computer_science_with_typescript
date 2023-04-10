@@ -22,8 +22,7 @@ Isso inclui qualquer método presente em built-in objetos como: Array.filter, Ar
 Como regra geral, você deve adotar que é **EXPLICITAMENTE PROIBIDO** utilizar funções que não estejam listadas como
 permitidas diretamente nas instruções de cada desafio.
 
-Não podemos testar se o seu código está ou não utilizando apenas as funções permitidas, mas tenha em mente que se você
-não seguir estas instruções, estará apenas enganando a si mesmo e atrasando seu processo de aprendizado.
+As regras do ESLINT garantirão que métodos não permitidos não sejam usados. Tenha em mente que, se você tentar ignorar o eslint, os testes locais para seus desafios podem passar, mas você não poderá fazer o commit do seu trabalho até que todas as regras sejam corrigidas.
 
 ## :rocket: Como testar seu código
 

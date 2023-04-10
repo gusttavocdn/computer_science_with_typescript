@@ -25,8 +25,7 @@ directly in the instructions for each challenge.
 
 This includes any methods of built-in objects like: Array.filter, Array.map, String.toLowerCase, etc.
 
-We can't test if your code are or not using only the allowed functions but have in mind that if you do not follow these
-instructions you will be only cheating yourself and delaying your learning process.
+The ESLINT rules will ensure that method not alloweds are not used. Have in mind that if you try to ignore the eslint the local tests for your challenges can pass, but you will not be able to commit your work until all the rules are fixed.
 
 ## :rocket: How to test your code
 
