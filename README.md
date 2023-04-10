@@ -1,6 +1,6 @@
 # Ciências da Computação com Typescript
 
-- [Documentação em inglês](https://github.com/gusttavocdn/computer_science_with_typescript/blob/main/README.md)
+- [Documentação em inglês](https://github.com/gusttavocdn/computer_science_with_typescript/blob/main/README_EN.md)
 
 ## :page_with_curl: Resumo
 

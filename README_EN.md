@@ -1,6 +1,6 @@
 # Computer Science with TS
 
-- [Portuguese Docs](https://github.com/gusttavocdn/computer_science_with_typescript/blob/main/README_PT_BR.md)
+- [Portuguese Docs](https://github.com/gusttavocdn/computer_science_with_typescript/blob/main/README.md)
 
 ## :page_with_curl: Summary
 
