@@ -1,12 +1,5 @@
 {
   "challenges": [
-    "print-string",
-    "print-number",
-    "arr-length",
-    "str-length",
-    "split",
-    "reverse-string",
-    "push",
     "reverse-number",
     "index-of",
     "for-each",
