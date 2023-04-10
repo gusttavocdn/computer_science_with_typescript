@@ -1,2 +1,4 @@
 *.test.ts
 .eslintrc.js
+test
+test-jest-challenge.ts
